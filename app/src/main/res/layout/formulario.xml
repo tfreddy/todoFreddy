@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/fab_margin">
+
+
+
+    <TextView
+        android:id="@+id/lblNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:layout_marginBottom="@dimen/fab_margin"
+        android:gravity="left"
+        android:text="@string/nombre"/>
+    <EditText
+        android:id="@+id/txtNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:hint="@string/hintNombre"/>
+    <TextView
+        android:id="@+id/lblActividad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:layout_marginBottom="@dimen/fab_margin"
+        android:gravity="left"
+        android:text="@string/Actividad" />
+    <EditText
+        android:id="@+id/txtActividad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:hint="@string/hintActividad"/>
+    <Button
+        android:id="@+id/BtnGuardar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Guardar"/>
+
+
+
+
+</LinearLayout>
